@@ -1,24 +1,23 @@
 body {
-   background-image: url("FUNLBackground3.jpg"); /* The image used */
+  height: 100vh;
+  background-image: url("FUNLBackground3.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 1080px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-      background-size: cover; /* Resize the background image to cover the entire container */color:#fff;
-
+  background-size: cover; /* Resize the background image to cover the entire container */color:#fff;
 }
 
 
 @keyframes fadeIn {
   from {top: 20%; opacity: 0;}
   to {top: 100; opacity: 1;}
-  
+
 }
 
 @-webkit-keyframes fadeIn {
   from {top: 20%; opacity: 0;}
   to {top: 100; opacity: 1;}
-  
+
 }
 
 .wrapper {
@@ -29,7 +28,7 @@ body {
   -webkit-transform: translate(-50%, -50%);
   animation: fadeIn 1000ms ease;
   -webkit-animation: fadeIn 1000ms ease;
-  
+
 }
 .imagez{
     margin-bottom: 100px;
@@ -60,7 +59,7 @@ p {
 
 .icons {
   text-align: center;
-  
+
 }
 
 .icons i {
@@ -84,5 +83,5 @@ p {
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   text-decoration: none;
-  
+
 }
